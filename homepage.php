@@ -1,14 +1,5 @@
 <?php
-/**
- * Template name:Homepage
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @package web2feel
- */
+
 get_header(); ?>
 <div class="container"><!--
 <div class="section-wide">
@@ -38,7 +29,7 @@ get_header(); ?>
 		 	</div>
 		 <?php endif; ?>
 
-		 <h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+		 <h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
 		 
 		 </div>
 		
@@ -78,7 +69,7 @@ get_header(); ?>
 			
 		 <?php endif; ?>
 
-		 <h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
+		 <h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
 		 <div class="hometa"> <?php web2feel_posted_on(); ?> </div>
 		 
 		
@@ -101,44 +92,53 @@ $(document).ready(function(){
 });
 </script>
 <style type="text/css">
-	.bs-example{
-		margin: 20px;
-	}
+	
 </style>
+
+<?php 
+	$text1 = ft_of_get_option('welcome_text'); 
+	$text2 = ft_of_get_option('service_text'); 
+	$text3 = ft_of_get_option('about_text'); 
+	$title1 = ft_of_get_option('welcome_text_title'); 
+	$title2 = ft_of_get_option('service_text_title'); 
+	$title3 = ft_of_get_option('about_text_title'); 
+
+?>
 <div class="row">
-<div class="bs-example">
-<center>
-    <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#sectionA">Section A</a></li>
-        <li><a data-toggle="tab" href="#sectionB">Section B</a></li>
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a data-toggle="tab" href="#dropdown1">Dropdown1</a></li>
-                <li><a data-toggle="tab" href="#dropdown2">Dropdown2</a></li>
-            </ul>
-        </li>
-    </ul>
-</center>
-    <div class="tab-content">
-        <div id="sectionA" class="tab-pane fade in active">
-            <h3>Section A</h3>
-            <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-        </div>
-        <div id="sectionB" class="tab-pane fade">
-            <h3>Section B</h3>
-            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-        </div>
-        <div id="dropdown1" class="tab-pane fade">
-            <h3>Dropdown 1</h3>
-            <p>WInteger convallis, nulla in sollicitudin placerat, ligula enim auctor lectus, in mollis diam dolor at lorem. Sed bibendum nibh sit amet dictum feugiat. Vivamus arcu sem, cursus a feugiat ut, iaculis at erat. Donec vehicula at ligula vitae venenatis. Sed nunc nulla, vehicula non porttitor in, pharetra et dolor. Fusce nec velit velit. Pellentesque consectetur eros.</p>
-        </div>
-        <div id="dropdown2" class="tab-pane fade">
-            <h3>Dropdown 2</h3>
-            <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis dis parturient.</p>
-        </div>
-    </div>
-</div>
+<div class="col-sm-2 homewidget">
+			</div>	
+			<div class="col-sm-8 homewidget">
+				<div class="tab-content">
+				<div id="sectionA" class="tab-pane fade in active">
+					<div id="heading"></div>
+					<h2><?php echo ($title1); ?></h2>
+					<div class="garisbawah"></div>	
+					<p><?php echo ($text1); ?></p>
+				</div>
+				<div id="sectionB" class="tab-pane fade">
+					<div id="heading"></div>
+				<h2><?php echo ($title2); ?></h2>
+				<div class="garisbawah"></div>	
+					<p><?php echo ($text2); ?></p>
+				</div>
+				<div id="sectionC" class="tab-pane fade">
+					<div id="heading"></div>
+				<h2><?php echo ($title3); ?></h2>
+				<div class="garisbawah"></div>	
+					<p><?php echo ($text3); ?></p>
+				</div>
+				<div id="sectionD" class="tab-pane fade">
+					<div id="heading"></div>
+				<h2>Contact</h2>
+				<div class="garisbawah"></div>	
+				</div>
+				<p><?php //contact form ?></p>
+				<div id="section_footer">
+				</div>
+			</div>
+			</div>	
+			<div class="col-sm-2 homewidget">
+			</div>	
 </div>
 </div>
 

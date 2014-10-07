@@ -15,6 +15,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="Shortcut Icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/x-icon" />
+<link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
 
 </head>
@@ -25,7 +26,7 @@
 	
 	
 	<?php if( is_page_template('homepage.php') ){ get_template_part( 'inc/feature' ); } ?>
-	<header id="masthead" class="site-header container" role="banner">
+	<!--<header id="masthead" class="site-header container" role="banner">
 		<div class="row">
 		<div class="site-branding col-sm-4">
 			
@@ -39,8 +40,8 @@
 		</div>
 
 		
-		</div> <!-- end row -->
-	</header><!-- #masthead -->
+		</div>
+	</header>-->
 	<div id="content" class="site-content ">
 	
 	

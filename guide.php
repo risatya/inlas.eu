@@ -9,18 +9,14 @@ function fabthemes_theme_guide(){
 		
 <div id="welcome-panel" class="about-wrap">
 
-	<div class="wpbadge" style="float:left; margin-right:30px; "><img src="'. get_template_directory_uri() . '/screenshot.png" width="250" height="200" /></div>
+	<div class="wpbadge" style="float:left; margin-right:30px; "><img src="'. get_template_directory_uri() . '/screenshot.jpg" width="250" height="200" /></div>
 
 	<div class="welcome-panel-content">
 	
-	<h1>Welcome to '.wp_get_theme().' WordPress theme!</h1>
+	<h1>'.wp_get_theme().' WordPress theme!</h1>
 	
-	<p class="about-text"> '.wp_get_theme().' is a free premium WordPress theme. This is a WordPress 3+ ready theme built on the bootstrap 3 framework. The theme comes with features like custom menu, featured images, widgetized sidebar, custom homepage etc. Theme also comes with an option panel. The homepage of the theme has a customizable Flexslider, custom widget areas and portfolio section.  </p>
-	
-	
-		
-
-		<div class="changelog ">
+	<p class="about-text"> '.wp_get_theme().' is a premium WordPress theme. This is a WordPress 3+ ready theme built on the bootstrap 3 framework. </p>
+	<div class="changelog ">
 		<h3>Required plugins </h3>
 		<p>The theme often requires few plugins to work the way it is originally intented to. You will find a notification on the admin panel prompting you to install the required plugins. Please install and activate the plugins.  </p>
 		<ol>
@@ -64,12 +60,6 @@ function fabthemes_theme_guide(){
 		Configure the banner ads on the sidebar </p>
 
 		</div>
-	
-				
-		<div class="changelog ">
-		' . file_get_contents(dirname(__FILE__) . '/FT/license-html.php') . '
-		</div>
-	
 
 	</div>
 	</div>

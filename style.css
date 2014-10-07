@@ -43,6 +43,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	vertical-align: baseline;
 }
+p{
+color :#282828;
+}
 html {
 	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
@@ -599,3 +602,33 @@ object {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+.bs-example{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#heading {
+	width: 100%;
+	margin: -17px auto 0px auto;
+	background: url('images/head_line.png') no-repeat top center;
+	height: 30px;
+}
+
+.garisbawah {
+	width: 100%;
+	max-width: 799px;
+	min-width: 727px;
+	margin: 0 auto;
+	margin-bottom:25px;
+	border-bottom:1px solid #CCC;
+}
+#section_footer {
+background-image: url('images/bottom.png');
+background-position: center center;
+margin: 20px 0 40px 0;
+height: 38px;
+}
+.tanda{
+color:#000;
+font-weight:bold;
+}
+	

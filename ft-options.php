@@ -147,13 +147,37 @@ function FT_OP_options()
 						"id" => "fabthemes_right_icon",
 						"std" => "glyphicon-heart",
 						"type" => "text");	
-						
-						
-						
-					
-
-	if (file_exists(dirname(__FILE__) . '/FT/options/banners.php'))
-			include ('FT/options/banners.php');
+	//start theme option//					
+	$options[] = array( "name" => "Welcome Text",
+						"type" => "heading");
+	$options[] = array( "name" => "Welcome Text title",
+						"desc" => "Enter the title for Welcome",
+						"id"   => "welcome_text_title",
+						"type" => "text");						
+	$options[] = array( "name" => "Welcome Text",
+						"desc" => "Welcome Text At Front",
+						"id"   => "welcome_text",
+						"type" => "textarea"); 												
+	$options[] = array( "name" => "Service Text",
+						"type" => "heading");
+	$options[] = array( "name" => "Service Text title",
+						"desc" => "Enter the title for Service",
+						"id"   => "service_text_title",
+						"type" => "text");							
+	$options[] = array( "name" => "Service Text",
+						"desc" => "Service Text At Front",
+						"id"   => "service_text",
+						"type" => "textarea");	
+	$options[] = array( "name" => "About Text",
+						"type" => "heading");
+	$options[] = array( "name" => "About Text title",
+						"desc" => "Enter the title for About",
+						"id"   => "about_text_title",
+						"type" => "text");						
+	$options[] = array( "name" => "About Text",
+						"desc" => "About Text At Front",
+						"id"   => "about_text",
+						"type" => "textarea"); 							
 
 	if (file_exists(dirname(__FILE__) . '/FT/options/colors.php'))
 			include ('FT/options/colors.php');
