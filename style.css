@@ -631,4 +631,16 @@ height: 38px;
 color:#000;
 font-weight:bold;
 }
-	
+#headertopp {
+color: #fff;
+width: 155%;
+font-size: 12px;
+position: absolute;
+top: 0px;
+left: 10px;
+/* border-bottom: 1px solid #fff; */
+margin: 0px auto;
+font-family: Century;
+margin-left: -240px;
+margin-top: 19px;
+}
