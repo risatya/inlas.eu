@@ -1,3 +1,17 @@
+<?php
+/**
+ * The template for displaying all pages.
+ *
+  Template name:Portfolio
+  
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package web2feel
+ */
+?>
 <div class="row">
 		<ul class="slides">
 		<div id="headertopp" class="header-posisi" style="top: -40px;">

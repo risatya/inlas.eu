@@ -25,7 +25,7 @@
 	<?php do_action( 'before' ); ?>
 	
 	
-	<?php if( is_page_template('homepage.php') ){ get_template_part( 'inc/feature' ); } ?>
+	<?php if( is_page_template('portofolio-page.php') ){ get_template_part( 'inc/feature' ); } ?>
 	<!--<header id="masthead" class="site-header container" role="banner">
 		<div class="row">
 		<div class="site-branding col-sm-4">
