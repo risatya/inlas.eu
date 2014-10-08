@@ -9,34 +9,32 @@
 ?>
 
 	</div><!-- #content -->
-	
+
 	<div id="bottom">
 		<div class="container">
 			<div class="row">
-			
+
 			<?php if ( !function_exists('dynamic_sidebar')
-			        || !dynamic_sidebar("Footer") ) : ?>  
+			        || !dynamic_sidebar("Footer") ) : ?>
 			<?php endif; ?>
-			
-			
+
+
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="container">
 		<div class="site-info wrap row">
-			<div class="fcred col-6">
-				Copyright &copy; <?php echo date('Y');?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> - <?php bloginfo('description'); ?>.<br />
-<?php fflink(); ?> | <a href="http://fabthemes.com/<?php echo FT_scope::tool()->themeName ?>/" ><?php echo FT_scope::tool()->themeName ?> WordPress Theme</a>
-			</div>		
-			<div class="fcred col-6">
-				Copyright &copy; <?php echo date('Y');?> <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a> - <?php bloginfo('description'); ?>.<br />
-<?php fflink(); ?> | <a href="http://fabthemes.com/<?php echo FT_scope::tool()->themeName ?>/" ><?php echo FT_scope::tool()->themeName ?> WordPress Theme</a>
-			</div>	
+			<div class="fcred-left col-6">
+				Copyright &copy; 2012 <a href="http://smartdesigner.eu" title="smartdesigner">Smartdesigner</a> | All Rights Reserved
+			</div>
+			<div class="fcred-right col-6">
+				<a data-toggle="tab" href="#sectionE">Privacy</a>
+			</div>
 		</div><!-- .site-info -->
-	</div>	
+	</div>
 </footer><!-- #colophon .site-footer -->
 
 </div><!-- #page -->

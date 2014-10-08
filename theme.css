@@ -52,7 +52,7 @@ h1.site-title{
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-top: 25px;
-	
+
 }
 h1.site-title a:link, h1.site-title a:visited{
 	color: #000;
@@ -91,7 +91,7 @@ nav.main-navigation{
 
 
 	}
-	
+
 #submenu ul {
 	width: auto;
 	float:left;
@@ -100,7 +100,7 @@ nav.main-navigation{
 	padding: 0 0px;
 
 	}
-	
+
 #submenu li {
 	float: left;
 	list-style: none;
@@ -110,7 +110,7 @@ nav.main-navigation{
 	font-weight:400;
 
 	}
-	
+
 #submenu li a {
 	color: #777;
 	display: block;
@@ -122,20 +122,20 @@ nav.main-navigation{
 
 #submenu li a:hover, #submenu li a:active, #submenu .current_page_item a  {
 	color: #ed564b;
-	
+
 	}
-	
+
 #submenu li a.sf-with-ul {
 	padding-right: 10px;
-	}	
-	
+	}
 
-	
+
+
 #submenu li ul li a, #submenu li ul li a:link, #submenu li ul li a:visited,
 #submenu li ul li ul li a, #submenu li ul li ul li a:link, #submenu li ul li ul li a:visited,
 #submenu li ul li ul li ul li a, #submenu li ul li ul li ul li a:link, #submenu li ul li ul li ul li a:visited {
 	color:#777;
-	width: 148px; 
+	width: 148px;
 	margin: 0;
 	padding: 10px 10px;
 	border-top:1px solid #ddd;
@@ -143,14 +143,14 @@ nav.main-navigation{
 	font-weight:400;
 
 	}
-	
+
 #submenu ul li ul li:first-child a,#submenu ul li ul li ul li:first-child a,#submenu ul li ul li ul li ul li:first-child a  {
 	border-top:none;
-	
+
 
 }
 
-	
+
 #submenu li ul li a:hover ,#submenu li ul li ul li a:hover ,#submenu li ul li ul li ul li a:hover {
 	color: #ed564b;
 
@@ -167,14 +167,14 @@ nav.main-navigation{
 	margin: 0px 0px 0px 0px;
 	padding: 5px 5px;
 	background:#fff;
-	
+
 	}
 
-#submenu li ul a { 
+#submenu li ul a {
 	width: 150px;
 	}
 
-#submenu li ul a:hover, #submenu li ul a:active { 
+#submenu li ul a:hover, #submenu li ul a:active {
 	}
 
 #submenu li ul ul {
@@ -189,7 +189,7 @@ nav.main-navigation{
 	left: auto;
 	}
 
-#submenu li:hover, #submenu li.sfHover { 
+#submenu li:hover, #submenu li.sfHover {
 	position: static;
 	}
 
@@ -230,8 +230,8 @@ img.grayscale {
 	filter: gray; /* IE6-9 */
 	/* -webkit-filter: grayscale(100%); */ /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
-	
-	
+
+
 .flex-caption{
 	width: 800px;
 	position: absolute;
@@ -241,9 +241,9 @@ img.grayscale {
 	text-align: center;
 	z-index: 120;
 	color: #fff;
-	
-}	
-	
+
+}
+
 .flex-caption h2{
 	text-transform: uppercase;
 	font-size: 36px;
@@ -365,7 +365,7 @@ a.frmore{
 }
 .postbox h3 a:link, .postbox h3 a:visited, .portbox h3 a:link, .portbox h3 a:visited {
 	color: #000;
-	
+
 }
 
 .hometa{
@@ -440,7 +440,7 @@ input.search-field{
 /* Widgets */
 .widget {
 	margin: 0 0px 30px 0px;
-	
+
 }
 
 h1.widget-title, h3.sidetitl {
@@ -561,7 +561,7 @@ li.rbanner{
 /* Comments */
 
 #comments{
-	
+
 }
 
 h2.comments-title{
@@ -611,10 +611,10 @@ ol.comment-list li .comment-meta{
 }
 
 ol.comment-list li .comment-meta a {
-    
+
     text-decoration: none!important;
-    
-    
+
+
 }
 
 .comment-metadata{
@@ -734,7 +734,7 @@ textarea#comment {
 #bottom{
 	padding: 20px 0px 40px 0px;
 	background: #3b3b3b;
-	border-top:5px solid #ed564b;
+	border-top: 3px solid #c89856;
 }
 
 #bottom ul{
@@ -749,11 +749,11 @@ h3.bothead{
 	color:#fff;
 	text-transform: uppercase;
 	}
-	
+
 .botwid{
 	color: #aaa;
 	}
-	
+
 .botwid ul {
 	list-style-type: none;
 	margin:  0px;
@@ -792,11 +792,11 @@ h3.bothead{
 .botwid ul li {
 	height:100%;
 	line-height:18px;
-	clear: left;	
+	clear: left;
 	list-style-type: none;
 	color: #aaa;
 	}
-	
+
 .botwid ul li a:link, .botwid ul li a:visited  {
 	color: #aaa;
 	text-decoration: none;
@@ -812,15 +812,15 @@ h3.bothead{
 	padding: 5px 0px;
 	margin:0;
 	line-height:150%;
-	
+
 	}
 
 .botwid table {
 	width:100%;
 	text-align:center;
 	color: #818181;
-	}		
-		
+	}
+
 .botwid ul#recentcomments li.recentcomments {
     padding:7px 0;
 }
@@ -835,12 +835,23 @@ h3.bothead{
 	font-size: 12px;
 }
 
-.fcred{
+.fcred-left{
 	padding: 10px 0px;
 	color: #eee;
+	float:left;
 }
 
-.fcred a:link, .fcred a:visited{
+.fcred-left a:link, .fcred a:visited{
+	color:#eee;
+}
+.fcred-right{
+	padding: 10px 0px;
+	color: #eee;
+	float:right;
+	text-align: right;
+}
+
+.fcred-right a:link, .fcred a:visited{
 	color:#eee;
 }
 
@@ -852,7 +863,7 @@ h3.bothead{
 	h1.site-title{
 		text-align: center;
 	}
-	
+
 	select.mnav{
 		width: 100%;
 		margin-bottom: 20px;
@@ -861,12 +872,14 @@ h3.bothead{
 	#submenu{
 		display:none;
 		}
-		
+
 	.flex-caption{
 		display: none;
 	}
 	.portbox, .postbox{
 		margin-bottom: 30px;
 	}
-
+	#headertopp{
+		display:none;
+	}
 }
